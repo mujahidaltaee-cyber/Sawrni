@@ -50,6 +50,7 @@ public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTheme(R.style.Theme_Sawwarni);
         super.onCreate(savedInstanceState);
         getWindow().setStatusBarColor(getColor(R.color.navy));
         getWindow().setNavigationBarColor(getColor(R.color.navy));
