@@ -1,0 +1,14 @@
+<resources>
+    <style name="Theme.Sawwarni" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:colorAccent">@color/purple</item>
+        <item name="android:navigationBarColor">@color/navy</item>
+        <item name="android:statusBarColor">@color/navy</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+    <style name="Theme.Sawwarni.Launch" parent="Theme.Sawwarni">
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+</resources>
